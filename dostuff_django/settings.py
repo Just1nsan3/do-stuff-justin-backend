@@ -86,13 +86,24 @@ WSGI_APPLICATION = 'dostuff_django.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'dostuff',
+#         'USER': 'dostuffadmin',
+#         'PASSWORD': 'funky-ducks',
+#         'HOST': 'localhost'
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dostuff',
-        'USER': 'dostuffadmin',
-        'PASSWORD': 'funky-ducks',
-        'HOST': 'localhost'
+        'NAME': 'ddn7fffk2k00qe',
+        'USER': 'hkdijzgcuwvzls',
+        'PASSWORD': 'e72ece593bc6c36ff998802820586d6bc3edf57f88e55b29f421823678d74126',
+        'HOST': 'ec2-50-17-194-186.compute-1.amazonaws.com',
+        'PORT': 5432
     }
 }
 # DATABASES = {
